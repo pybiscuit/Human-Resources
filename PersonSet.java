@@ -1,9 +1,10 @@
-import java.util.ArrayList;
+// Name: Robert Vanderburg
+// Email: rvanderburg@unm.edu
+// Assignment: PersonSet.java (Human Resources)
+// Purpose: Human Resource Parts 1 and 2. provide mechanisms for inheritance, 
+// inerfaces, polymorphism, and file io.
 
-interface PersonList {
-    void add(Person personToAdd);
-    Person get(int personIndex);
-}
+import java.util.ArrayList;
 
 class PersonSet implements PersonList {
     private ArrayList<Person> personList = new ArrayList<>();

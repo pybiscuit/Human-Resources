@@ -1,3 +1,9 @@
+// Name: Robert Vanderburg
+// Email: rvanderburg@unm.edu
+// Assignment: Person.java (Human Resources)
+// Purpose: Human Resource Parts 1 and 2. provide mechanisms for inheritance, 
+// inerfaces, polymorphism, and file io.
+
 class Person {
     private String name;
     private double height;
